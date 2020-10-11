@@ -73,11 +73,13 @@ ol, ul {
 blockquote, q {
 	quotes: none;
 }
+
 blockquote:before, blockquote:after,
 q:before, q:after {
 	content: '';
 	content: none;
 }
+
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
@@ -303,3 +305,57 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+
+/*contact.html css goes under here*/
+
+.about-section p  {
+    color: black;
+    padding-bottom: 10px;
+    
+
+}
+
+.about-section {
+    
+    margin: 20px;
+    border-bottom: 2px dotted black;
+    
+    
+
+}
+
+.container-about-page {
+    width: 800px;
+    margin: 0 auto;
+}
+
+
+.middle-content-2 {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    
+        
+}
+
+
+
+
+.middle-content-container {
+    margin: 10px;
+    padding: 0px;   
+    font-family: "Roboto", sans-serif;
+
+}
+
+.middle-
+
+.text-container-2 {
+    
+    padding: 20px;
+    padding-bottom: 20px; 
+
+}
+
+
