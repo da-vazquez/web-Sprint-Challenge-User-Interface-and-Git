@@ -344,18 +344,45 @@ footer nav a {
 
 .middle-content-container {
     margin: 10px;
-    padding: 0px;   
+    padding: 2px;   
     font-family: "Roboto", sans-serif;
+    border-bottom: 2px dotted black;
+    padding-bottom: 8px;
+
 
 }
 
 .middle-
 
 .text-container-2 {
-    
     padding: 20px;
     padding-bottom: 20px; 
 
 }
+
+.text-container-2 button {
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+    background-color: white;
+    font-weight: bold;
+
+}    
+
+
+button:hover {
+    background-color: black;
+    color: white;
+    transform: skew(-200deg) }
+
+
+a:hover {
+    background-color: black;
+    color: white;
+    background-color: black;
+    transform: skew(-200deg) 
+
+}
+
 
 
