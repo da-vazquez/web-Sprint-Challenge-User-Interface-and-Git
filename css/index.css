@@ -31,17 +31,55 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
+
+header {
+    padding: 30px;
+    padding-left: 0px;   
+
+}
+
+header nav a img {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 10%;
+    font-size: 16px;
+    margin-bottom: 20px;
+    
+    
+}
+
+
+header a {
+    margin: 20px;
+    padding: 15px 2%;
+    font-size: 14px;
+    text-decoration: none;
+    color: black;   
+
+}
+
+#jumbo-img {
+    padding-bottom: 20px;
+
+
+}
+
+
 ol, ul {
 	list-style: none;
 }
 blockquote, q {
 	quotes: none;
 }
+
 blockquote:before, blockquote:after,
 q:before, q:after {
 	content: '';
 	content: none;
 }
+
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
@@ -104,12 +142,135 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    background-color: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.middle-content .boxes .box1 {
+    width: 12.5%;
+    height: 100px;
+    background-color:teal;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.middle-content .boxes .box2 {
+    width: 12.5%;
+    height: 100px;
+    background-color: gold;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.middle-content .boxes .box3 {
+    width: 12.5%;
+    height: 100px;
+    background-color: cadetblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.middle-content .boxes .box4 {
+    width: 12.5%;
+    height: 100px;
+    background-color: coral;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.middle-content .boxes .box5 {
+    width: 12.5%;
+    height: 100px;
+    background-color: crimson;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.middle-content .boxes .box6 {
+    width: 12.5%;
+    height: 100px;
+    background-color: forestgreen;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.middle-content .boxes .box7 {
+    width: 12.5%;
+    height: 100px;
+    background-color: darkorchid;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.middle-content .boxes .box8 {
+    width: 12.5%;
+    height: 100px;
+    background-color: hotpink;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.middle-content .boxes .box9 {
+    width: 12.5%;
+    height: 100px;
+    background-color: indigo;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.middle-content .boxes .box10 {
+    width: 12.5%;
+    height: 100px;
+    background-color: dodgerblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 
 .bottom-content {
@@ -144,3 +305,82 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+
+/*contact.html css goes under here*/
+
+.about-section p  {
+    color: black;
+    padding-bottom: 10px;
+    
+
+}
+
+.about-section {
+    
+    margin: 20px;
+    border-bottom: 2px dotted black;
+    
+    
+
+}
+
+.container-about-page {
+    width: 800px;
+    margin: 0 auto;
+}
+
+
+.middle-content-2 {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    
+        
+}
+
+
+
+
+.middle-content-container {
+    margin: 10px;
+    padding: 2px;   
+    font-family: "Roboto", sans-serif;
+    border-bottom: 2px dotted black;
+    padding-bottom: 8px;
+
+
+}
+
+.middle-
+
+.text-container-2 {
+    padding: 20px;
+    padding-bottom: 20px; 
+
+}
+
+.text-container-2 button {
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+    background-color: white;
+    font-weight: bold;
+
+}    
+
+
+button:hover {
+    background-color: black;
+    color: white;
+    transform: skew(-200deg) }
+
+
+a:hover {
+    background-color: black;
+    color: white;
+    background-color: black;
+    transform: skew(-200deg) 
+
+}
+
